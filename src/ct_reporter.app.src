@@ -1,0 +1,14 @@
+{application, ct_reporter, [
+    {description, "A collection of Common Test event handlers and hooks"},
+    {vsn, git},
+    {applications, [
+        kernel,
+        stdlib,
+        common_test
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
